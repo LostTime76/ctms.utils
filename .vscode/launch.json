@@ -1,0 +1,11 @@
+{
+	"configurations": [
+	{
+		"name": "Debug",
+		"type": "debugpy",
+		"request": "launch",
+		"program": "${workspaceFolder}/test/test.py",
+		"cwd": "${workspaceFolder}/test",
+		"args": []
+	}]
+}

@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"problemMatcher":"$msCompile",
+	"presentation": {
+		"echo": false,
+		"reveal": "always",
+		"focus": false,
+		"panel": "dedicated",
+		"showReuseMessage": false,
+		"clear": false
+	},
+	"tasks": []
+}

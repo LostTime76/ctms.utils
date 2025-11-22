@@ -1,0 +1,37 @@
+# Project config
+[project]
+
+# Distribution name of the package
+name = 'ctmslib'
+
+# Package version
+version = '0.1.0'
+
+# Package description
+description = 'Binary utilities for working with embedded object files'
+
+# Python requirement
+requires-python = '>=3.13.0a6'
+
+# Package authors
+authors = [
+	{ name='Colton Murphy', email='cmurp77@gmail.com' },
+]
+
+# Package classifiers
+classifiers = [
+	'Programming Language :: Python :: 3',
+	'Operating System :: Microsoft :: Windows :: Windows 10',
+]
+
+# Package discovery
+[tool.setuptools.packages.find]
+
+# Packages root dir
+where = ['packages']
+
+# Package data config
+[tool.setuptools.package-data]
+
+# Include shared libraries
+'ctmslib' = ['*.dll']
